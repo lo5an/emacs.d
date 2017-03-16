@@ -33,7 +33,6 @@
 		    color-theme-solarized
 		    dash
 		    el-get
-		    magit
 		    smex
 		    switch-window
 		    yaml-mode
