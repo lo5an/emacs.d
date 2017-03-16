@@ -26,10 +26,10 @@
 
 ;; elpa packages that don't have el-get recipes
 (el-get-bundle drupal-mode :type elpa)
-(el-get-bundle solarized-theme :type elpa)
 
 ;; el-get packages
 (setq my-packages '(
+		    dash
 		    auto-complete
 		    el-get
 		    magit
