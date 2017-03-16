@@ -1,7 +1,9 @@
 *.elc
+.ido.last
 .smex-items
 ac-comphist.dat
 backups
 el-get/
 elpa/
 network-security.data
+
