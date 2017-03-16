@@ -54,8 +54,7 @@
 (line-number-mode 1)			; have line numbers and
 (column-number-mode 1)			; column numbers in the mode line
 
-(tool-bar-mode -1)			; no tool bar with icons
-(scroll-bar-mode -1)			; no scroll bars
+
 
 
 ;; Use the clipboard, pretty please, so that copy/paste "works"
@@ -78,9 +77,3 @@
 (setq ido-default-buffer-method 'selected-window)
 
 (global-set-key (kbd "C-x B") 'ibuffer)
-
-
-
-;; hide the File  Edit Options menu in terminal mode
-(unless (display-graphic-p)
-   (menu-bar-mode -1))
