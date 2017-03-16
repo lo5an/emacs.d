@@ -1,5 +1,7 @@
+*.elc
 .smex-items
 ac-comphist.dat
+backups
 el-get/
 elpa/
-*.elc
+network-security.data
