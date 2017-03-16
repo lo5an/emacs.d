@@ -45,3 +45,6 @@
 
 ;; Put menu customizations in their own file
 (setq custom-file "~/.emacs.d/custom.el")
+
+;; load my other settings
+(load  "~/.emacs.d/lmc.el" 'no-error)
