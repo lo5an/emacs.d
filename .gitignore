@@ -1,6 +1,7 @@
 *.elc
 .ido.last
 .smex-items
+autosaves
 ac-comphist.dat
 backups
 el-get/
