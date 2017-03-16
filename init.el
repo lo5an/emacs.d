@@ -39,6 +39,8 @@
 		    yaml-mode
 		    ))
 (el-get 'sync my-packages)
+
+;; do elpa junk
 (package-initialize)
 
 ;; Put menu customizations in their own file
