@@ -71,10 +71,16 @@
 ;; use ido 
 (require 'ido)
 (ido-mode t)
+(ido-everywhere t)
 (setq ido-save-directory-list-file "~/.emacs.d/.ido.last")
 (setq ido-enable-flex-matching t)
-(setq ido-use-filename-at-point 'guess)
 (setq ido-show-dot-for-dired t)
 (setq ido-default-buffer-method 'selected-window)
 
 (global-set-key (kbd "C-x B") 'ibuffer)
+
+
+
+;; hide the File  Edit Options menu in terminal mode
+(unless (display-graphic-p)
+   (menu-bar-mode -1))

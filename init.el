@@ -33,6 +33,7 @@
 		    color-theme-solarized
 		    dash
 		    el-get
+		    ido-ubiquitous
 		    smex
 		    switch-window
 		    yaml-mode
