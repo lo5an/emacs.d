@@ -40,10 +40,5 @@
 (el-get 'sync my-packages)
 (package-initialize)
 
-
-
+;; Put menu customizations in their own file
 (setq custom-file "~/.emacs.d/custom.el")
-
-
-;; load other settings
-(load  "~/.emacs.d/lmc.el" 'no-error)
