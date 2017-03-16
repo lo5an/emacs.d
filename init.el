@@ -29,8 +29,9 @@
 
 ;; el-get packages
 (setq my-packages '(
-		    dash
 		    auto-complete
+		    color-theme-solarized
+		    dash
 		    el-get
 		    magit
 		    smex
