@@ -1,0 +1,5 @@
+.smex-items
+ac-comphist.dat
+el-get/
+elpa/
+*.elc
