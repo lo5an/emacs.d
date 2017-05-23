@@ -37,6 +37,7 @@
 		    smex
 		    switch-window
 		    yaml-mode
+		    neotree
 		    ))
 (el-get 'sync my-packages)
 
