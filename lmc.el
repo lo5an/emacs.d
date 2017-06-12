@@ -77,3 +77,14 @@
 (setq ido-default-buffer-method 'selected-window)
 
 (global-set-key (kbd "C-x B") 'ibuffer)
+
+
+
+
+
+(require 'switch-window)
+(global-set-key (kbd "C-x o") 'switch-window)
+;; (global-set-key (kbd "C-x 1") 'switch-window-then-maximize)
+;; (global-set-key (kbd "C-x 2") 'switch-window-then-split-below)
+;; (global-set-key (kbd "C-x 3") 'switch-window-then-split-right)
+;; (global-set-key (kbd "C-x 0") 'switch-window-then-delete)
